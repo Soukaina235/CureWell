@@ -1,0 +1,36 @@
+
+h
+java:S1192T"KDefine a constant instead of duplicating this literal "RESP_VENTE" 4 times.(§³èÆ8½œŸÑÎ1
+u
+java:S1192"RDefine a constant instead of duplicating this literal "listMedicine.fxml" 3 times.(Ş„ëôüÿÿÿÿ8½œŸÑÎ1
+m
+java:S1192W"KDefine a constant instead of duplicating this literal "RESP_ACHAT" 4 times.(ØÃ£‰şÿÿÿÿ8¾œŸÑÎ1
+h
+java:S1192Q"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(è¨ÂŠıÿÿÿÿ8¾œŸÑÎ1
+k	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ëåáıÿÿÿÿ
+s	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8ÀœŸÑÎ1
+s	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8ÁœŸÑÎ1
+s	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8óÄ ÑÎ1
+l	java:S116"WRename this field "med_category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¤¨ÿ
+h	java:S1165"SRename this field "med_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øû‰º
+m	java:S1167"SRename this field "med_desc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„µ­·ûÿÿÿÿ
+n	java:S1169"TRename this field "med_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ñ¼¬ıÿÿÿÿ
+l	java:S116;"WRename this field "med_quantity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä–Õ
+b	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ
+<	java:S131P""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+c	java:S100m"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À“€Æ
+h	java:S100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ƒ‰Îıÿÿÿÿ
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‘áøÿÿÿÿ
+8	java:S131»""Add a default case to this switch.(ÿ—çú
+i	java:S100Û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‡ı¹üÿÿÿÿ
+N
+java:S1172Û"2Remove this unused method parameter "actionEvent".(…‡ı¹üÿÿÿÿ
+8	java:S131à""Add a default case to this switch.(Ü×ŸÖ
+k	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åïÛó8·ŸÑÎ1
+D	java:S131""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8¿ŸÑÎ1
+H	java:S106©"+Replace this use of System.out by a logger.(¦ôëí8ÀŸÑÎ1
+p	java:S100¼"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡‚ßùÿÿÿÿ8ÅŸÑÎ1
+D	java:S131Ã""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8ÊŸÑÎ1
+k	java:S100İ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ8”¾¡ÑÎ1
+D	java:S131ã""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8²Æ ÑÎ1

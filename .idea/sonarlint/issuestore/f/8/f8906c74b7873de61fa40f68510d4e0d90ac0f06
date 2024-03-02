@@ -1,0 +1,19 @@
+
+r	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8ğÁ·ÍÎ1
+r	java:S117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8±ÏÂÎÎ1
+^
+java:S1659#"HDeclare "gmailColumn" and all following declarations on a separate line.(ÎèŠÌ
+\
+java:S1659%"FDeclare "addbutton" and all following declarations on a separate line.(ãôÉ¬
+j	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ8†²¸ÍÎ1
+o	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç’ı¾şÿÿÿÿ8µ²¸ÍÎ1
+Z
+java:S1854J"8Remove this useless assignment to local variable "ROLE".(ÓËŞ«üÿÿÿÿ8‘ÇÍÎ1
+K
+java:S1481J")Remove this unused "ROLE" local variable.(ÓËŞ«üÿÿÿÿ8”‘ÇÍÎ1
+i	java:S100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ8‚ÑÂÎÎ1
+C	java:S131b""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8…ÑÂÎÎ1
+b
+java:S1128"@Remove this unused import 'com.example.curewell.dao.CompanyDao'.(Ôù€ûÿÿÿÿ8÷ÿìÎÎ1
+B
+java:S1068",Remove this unused "adminDao" private field.(–·¶æ

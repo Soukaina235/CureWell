@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="535.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.AnalysisController">
+    <top>
+        <AnchorPane BorderPane.alignment="CENTER">
+
+            <Label layoutX="25.0" layoutY="-3.0" prefHeight="49.0" prefWidth="449.0" stylesheets="@styles.css" text="Top Employees:">
+                <font>
+                    <Font name="Coco Gothic" size="24.0" />
+                </font>
+            </Label>
+
+            <TableView fx:id="employeeTableView" layoutX="240.0" layoutY="23.0" prefHeight="218.0" prefWidth="367.0">
+                <columns>
+                    <TableColumn prefWidth="240.7999725341797" text="Employee Name">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="lastName" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="130.4000244140625" text="Total Transactions">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="totalTransactions" />
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+            </TableView>
+
+            <Label layoutX="28.0" layoutY="276.0" prefHeight="30.0" prefWidth="400.0" stylesheets="@styles.css" text="Current Profit:">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+            <Label fx:id="companyProfitLabel" layoutX="160.0" layoutY="276.0" prefHeight="30.0" prefWidth="400.0" stylesheets="@styles.css">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Label>
+
+            <LineChart fx:id="profitLineChart" layoutX="134.0" layoutY="306.0" prefHeight="215.0" prefWidth="407.0">
+                <xAxis>
+                    <NumberAxis />
+                </xAxis>
+                <yAxis>
+                    <NumberAxis />
+                </yAxis>
+            </LineChart>
+
+        </AnchorPane>
+    </top>
+</BorderPane>

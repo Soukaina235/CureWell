@@ -1,0 +1,31 @@
+
+h	java:S112Ë"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Øå¯Î1
+h	java:S112¶"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š—ª²Î1
+q
+java:S2095L"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(…ô«²ûÿÿÿÿ8ÆĞŞĞÎ1
+m
+java:S2095‹"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¹ï‹¦8¼¡¤ĞÎ1
+r
+java:S2095õ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(º’Èæüÿÿÿÿ8™¬»°Î1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(º’Èæüÿÿÿÿ8Ù•²Î1
+L	java:S106 "+Replace this use of System.out by a logger.(öÅèÓûÿÿÿÿ8‰å¯Î1
+F	java:S106#"+Replace this use of System.out by a logger.(ĞØÍ$8Ê¡¤ĞÎ1
+G	java:S106%"+Replace this use of System.out by a logger.(µ³ìÌ8Ë¡¤ĞÎ1
+X	java:S125."<This block of commented-out lines of code should be removed.(ƒí„€8Ì¡¤ĞÎ1
+G	java:S106X"+Replace this use of System.out by a logger.(± ¥8Ó¡¤ĞÎ1
+W	java:S125k"<This block of commented-out lines of code should be removed.(ê²8Ø¡¤ĞÎ1
+]	java:S125p"<This block of commented-out lines of code should be removed.(³òƒ¹ıÿÿÿÿ8Û¡¤ĞÎ1
+Y	java:S125º"<This block of commented-out lines of code should be removed.(–¿Ñ”8šå¯Î1
+u
+java:S6204Ñ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ó˜Íˆûÿÿÿÿ8ú¡¤ĞÎ1
+R
+java:S1611Ñ"/Remove the parentheses around the "t" parameter(Ó˜Íˆûÿÿÿÿ8ü¡¤ĞÎ1
+u
+java:S6204Ö"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(§åãÎúÿÿÿÿ8ş¡¤ĞÎ1
+R
+java:S1611Ö"/Remove the parentheses around the "t" parameter(§åãÎúÿÿÿÿ8€¢¤ĞÎ1
+g
+java:S1128"ERemove this unused import 'com.example.curewell.DashboardController'.(Œö‰çøÿÿÿÿ8âÑŞĞÎ1
+^
+java:S1144Ú";Remove this unused private "getMedicineQuantityMap" method.(ğÆç”ÿÿÿÿÿ8¬å¯Î1

@@ -1,0 +1,45 @@
+
+h
+java:S1192u"KDefine a constant instead of duplicating this literal "RESP_VENTE" 4 times.(§³èÆ8¥û»ÑÎ1
+m
+java:S1192x"KDefine a constant instead of duplicating this literal "RESP_ACHAT" 4 times.(ØÃ£‰şÿÿÿÿ8¦û»ÑÎ1
+h
+java:S1192r"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(è¨ÂŠıÿÿÿÿ8§û»ÑÎ1
+r	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8‡ ¦¶Î1
+s	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8ëÿüĞÎ1
+s	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8ªû»ÑÎ1
+s	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8«û»ÑÎ1
+r	java:S116"WRename this field "AddressField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôú®b8ñ ¦¶Î1
+v	java:S116!"URename this field "EmailField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤«„ùÿÿÿÿ8ñ ¦¶Î1
+v	java:S116$"URename this field "FnameField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åûÕúÿÿÿÿ8ñ ¦¶Î1
+v	java:S116'"URename this field "LnameField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£’³Ğûÿÿÿÿ8ñ ¦¶Î1
+q	java:S116*"URename this field "LoginField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›‚œæ8ñ ¦¶Î1
+t	java:S116-"XRename this field "PasswordField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€«³è8ñ ¦¶Î1
+v	java:S1160"URename this field "PhoneField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×—ø²ùÿÿÿÿ8ò ¦¶Î1
+u	java:S1163"TRename this field "RoleField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¯åşÿÿÿÿ8ò ¦¶Î1
+|	java:S116P"[Rename this field "ConfirmPassField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÔğíøÿÿÿÿ8ò ¦¶Î1
+|	java:S116S"[Rename this field "CurrentPassField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì´„øÿÿÿÿ8ò ¦¶Î1
+q	java:S116V"VRename this field "Email2Field" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô£ß,8ò ¦¶Î1
+s	java:S116Y"WRename this field "NewPassField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÍ°8ò ¦¶Î1
+s	java:S116^"WRename this field "MessageLabel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èéæ…8ò ¦¶Î1
+i	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ8ü ¦¶Î1
+C	java:S131q""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8€¡¦¶Î1
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À“€Æ8Ì¡¦¶Î1
+p	java:S100¹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ƒ‰Îıÿÿÿÿ8Ú¡¦¶Î1
+k	java:S100ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åïÛó8†ıĞÎ1
+D	java:S131ù""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8ŠıĞÎ1
+H	java:S106…"+Replace this use of System.out by a logger.(¦ôëí8ŠıĞÎ1
+k	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ8›±¼ÑÎ1
+D	java:S131""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8Ìı»ÑÎ1
+p	java:S100¶"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡‚ßùÿÿÿÿ8Õı»ÑÎ1
+D	java:S131½""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8Ùı»ÑÎ1
+p	java:S100Ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ë“Õùÿÿÿÿ8ë¡¦¶Î1
+p	java:S100ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê±ÆÄûÿÿÿÿ8ğ¡¦¶Î1
+Z
+java:S1128"8Remove this unused import 'javafx.application.Platform'.(§“óùÿÿÿÿ8Ñ±¼ÑÎ1
+h
+java:S1128"KRemove this unused import 'javafx.scene.control.cell.PropertyValueFactory'.(àÎ¬õ8Ò±¼ÑÎ1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ò±¼ÑÎ1
+n
+java:S1128"QRemove this unused import 'com.example.curewell.DashboardController.currentUser'.(òİÃ™8Ò±¼ÑÎ1

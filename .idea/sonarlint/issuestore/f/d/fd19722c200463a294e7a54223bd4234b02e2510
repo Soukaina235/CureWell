@@ -1,0 +1,13 @@
+
+G
+java:S3010!"%Remove this assignment of "adminDao".(øÁÊûşÿÿÿÿ8ÛüïÂÇ1
+t
+java:S6201+"RReplace this instanceof check and cast with 'instanceof Employee selectedEmployee'(ò¥Âñşÿÿÿÿ8ëüïÂÇ1
+t
+java:S62012"RReplace this instanceof check and cast with 'instanceof Employee selectedEmployee'(ò¥Âñşÿÿÿÿ8îüïÂÇ1
+c
+java:S1128"FRemove this unused import 'com.example.curewell.impl.EmployeeDaoImpl'.(³ù™8÷šÎ£Î1
+O
+java:S1128"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿ8øšÎ£Î1
+K
+java:S1068".Remove this unused "companyDao" private field.(ñï8˜÷É£Î1

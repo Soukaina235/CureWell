@@ -1,0 +1,22 @@
+
+m	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èþ¿È8«•Î²Î1
+H
+java:S3010"+Remove this assignment of "transactionDao".(ï«ï¶8£×¥²Î1
+r
+java:S6201,"PReplace this instanceof check and cast with 'instanceof Transaction transaction'(ÈÔæ¶ûÿÿÿÿ8´×¥²Î1
+P
+java:S1905-".Remove this unnecessary cast to "Transaction".(Ãµ•µùÿÿÿÿ8µ×¥²Î1
+r
+java:S62014"PReplace this instanceof check and cast with 'instanceof Transaction transaction'(ÈÔæ¶ûÿÿÿÿ8¶×¥²Î1
+P
+java:S19055".Remove this unnecessary cast to "Transaction".(Ãµ•µùÿÿÿÿ8¸×¥²Î1
+z
+java:S6201<"XReplace this instanceof check and cast with 'instanceof Transaction selectedTransaction'(ÈÔæ¶ûÿÿÿÿ8öÊ²Î1
+K
+java:S1905=".Remove this unnecessary cast to "Transaction".(á—‘Ã8öÊ²Î1
+c
+java:S1128"FRemove this unused import 'com.example.curewell.impl.EmployeeDaoImpl'.(ž³ù™8Ñ¥îÏÎ1
+a
+java:S1128"?Remove this unused import 'com.example.curewell.model.Company'.(åµöâùÿÿÿÿ8Ñ¥îÏÎ1
+]
+java:S1128"@Remove this unused import 'com.example.curewell.model.Employee'.(â²ÛÒ8Ñ¥îÏÎ1

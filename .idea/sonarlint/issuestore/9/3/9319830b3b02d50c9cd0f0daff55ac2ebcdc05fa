@@ -1,0 +1,26 @@
+
+`	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112}"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112µ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+\
+java:S1192"FDefine a constant instead of duplicating this literal "gmail" 3 times.(şÄÖÇ
+c
+java:S1192"HDefine a constant instead of duplicating this literal "address" 3 times.(°‹ó²øÿÿÿÿ
+a
+java:S1192"FDefine a constant instead of duplicating this literal "phone" 3 times.(¢ÉÚ­ùÿÿÿÿ
+]
+java:S1192"GDefine a constant instead of duplicating this literal "status" 3 times.(Ï¨İì
+g	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ÈÊŞ
+q
+java:S2095r"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8Ñ÷á¯Î1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8Ñ÷á¯Î1
+q
+java:S2095L"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8Ñ÷á¯Î1
+r
+java:S2095¯"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8Ñ÷á¯Î1
+u
+java:S6204Ä"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ôµò‹üÿÿÿÿ8²˜ó¬Î1

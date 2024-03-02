@@ -1,0 +1,68 @@
+
+
+java:S1192˜"^Define a constant instead of duplicating this literal "Transaction Management System" 3 times.(× ¦ƒşÿÿÿÿ8±îøÎÎ1
+n
+java:S1192ñ"KDefine a constant instead of duplicating this literal "RESP_ACHAT" 4 times.(ØÃ£‰şÿÿÿÿ8Êª„ĞÎ1
+i
+java:S1192ë"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(è¨ÂŠıÿÿÿÿ8Êª„ĞÎ1
+i
+java:S1192î"KDefine a constant instead of duplicating this literal "RESP_VENTE" 4 times.(§³èÆ8Êª„ĞÎ1
+s	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8´ã…´Î1
+s	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8ºîøÎÎ1
+s	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8Íª„ĞÎ1
+s	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8ÖŸ©ÑÎ1
+s	java:S1166"WRename this field "CompanyField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è÷Í¢8­²ß³Î1
+y	java:S1169"XRename this field "CreationField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ£›İşÿÿÿÿ8­²ß³Î1
+t	java:S116<"XRename this field "DiscountField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹„”®8­²ß³Î1
+y	java:S116?"XRename this field "EmployeeField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò”ËËıÿÿÿÿ8­²ß³Î1
+u	java:S116A"TRename this field "DateLabel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ãúÿÿÿÿ8ÖÇÀµÎ1
+n	java:S116E"RRename this field "IDField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òå€»8Ğõ–µÎ1
+w	java:S116I"VRename this field "StatusField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üŸÇüÿÿÿÿ8­²ß³Î1
+v	java:S116L"URename this field "TotalField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞúÃıÿÿÿÿ8®²ß³Î1
+u	java:S116O"TRename this field "TypeField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û×Éûÿÿÿÿ8®²ß³Î1
+y
+java:S18456"\Rename field "CompanyField" to prevent any misunderstanding/clash with field "companyField".(è÷Í¢8¯²ß³Î1
+{
+java:S1845<"^Rename field "DiscountField" to prevent any misunderstanding/clash with field "discountField".(‹„”®8¯²ß³Î1
+z
+java:S1845L"XRename field "TotalField" to prevent any misunderstanding/clash with field "totalField".(ŞúÃıÿÿÿÿ8°²ß³Î1
+
+java:S14503"bRemove the "selectedTransaction" field and declare it as a local variable in the relevant methods.(‰çÙê8±²ß³Î1
+J
+java:S1172†",Remove this unused method parameter "event".(‡Êá8Ç²ß³Î1
+X	java:S125ˆ"<This block of commented-out lines of code should be removed.(Õ£Ñv8È²ß³Î1
+G	java:S106‹"+Replace this use of System.out by a logger.(ºÒ"8É²ß³Î1
+M	java:S106Œ"+Replace this use of System.out by a logger.(³˜ÈÜûÿÿÿÿ8Ê²ß³Î1
+T
+java:S2696‘"6Make the enclosing method "static" or remove this set.(û¬•8Ë²ß³Î1
+Y	java:S125"<This block of commented-out lines of code should be removed.(Û²ñ8ÎñøÎÎ1
+H	java:S106¶"+Replace this use of System.out by a logger.(Û†­8ü²ß³Î1
+Y	java:S125µ"<This block of commented-out lines of code should be removed.(çàÆÈ8†òøÎÎ1
+M	java:S106·"+Replace this use of System.out by a logger.(ßŠÉ¹ûÿÿÿÿ8ı²ß³Î1
+M	java:S106¸"+Replace this use of System.out by a logger.(ğöèñøÿÿÿÿ8ı²ß³Î1
+M	java:S106¹"+Replace this use of System.out by a logger.(¡ß·ùÿÿÿÿ8ş²ß³Î1
+j	java:S100ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ8æ…´Î1
+D	java:S131ê""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8¡æ…´Î1
+k	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ8ã¡©ÑÎ1
+D	java:S131""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8ÀòøÎÎ1
+p	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡‚ßùÿÿÿÿ8¼á‚ĞÎ1
+D	java:S131®""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8©¬„ĞÎ1
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åïÛó8½òøÎÎ1
+D	java:S131ˆ""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8ø¡©ÑÎ1
+H	java:S106”"+Replace this use of System.out by a logger.(¦ôëí8ÁòøÎÎ1
+b
+java:S1128"@Remove this unused import 'com.example.curewell.dao.CompanyDao'.(Ôù€ûÿÿÿÿ8Õá‚ĞÎ1
+h
+java:S1128"KRemove this unused import 'javafx.scene.control.cell.PropertyValueFactory'.(àÎ¬õ8Õá‚ĞÎ1
+R
+java:S1128"0Remove this unused import 'javafx.stage.Window'.(Ñ€Ş‡øÿÿÿÿ8Õá‚ĞÎ1
+K
+java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8Õá‚ĞÎ1
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8Õá‚ĞÎ1
+\
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8Õá‚ĞÎ1
+T
+java:S10683"7Remove this unused "selectedTransaction" private field.(‰çÙê8œ³ß³Î1
+T
+java:S1068w"2Remove this unused "transactionDao" private field.(Î˜‹ìûÿÿÿÿ8³ß³Î1

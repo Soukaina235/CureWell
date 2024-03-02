@@ -1,0 +1,35 @@
+
+r	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8´í…£Ç1
+x	java:S116&"\Rename this field "UsernameTextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÎÊú8©º¾ Ç1
+j	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÉÂ÷8Ôº¾ Ç1
+‹
+java:S1130T"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(âÉÂ÷8Öº¾ Ç1
+I
+java:S1172T",Remove this unused method parameter "event".(âÉÂ÷8Öº¾ Ç1
+D
+java:S1125U"'Remove the unnecessary boolean literal.(Ú×Šì8×º¾ Ç1
+D
+java:S1125U"'Remove the unnecessary boolean literal.(Ú×Šì8Øº¾ Ç1
+j	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙĞà8Ûº¾ Ç1
+I
+java:S1172\",Remove this unused method parameter "event".(ÙĞà8İº¾ Ç1
+a
+java:S1128"?Remove this unused import 'com.example.curewell.sql.ConnectDB'.(Á¼«¾ûÿÿÿÿ8‹§Ø Ç1
+Z
+java:S1128"8Remove this unused import 'javafx.application.Platform'.(§“óùÿÿÿÿ8‹§Ø Ç1
+S
+java:S1128	"6Remove this unused import 'javafx.fxml.Initializable'.(™ÎùÆ8Œ§Ø Ç1
+R
+java:S1128"5Remove this unused import 'javafx.scene.image.Image'.(‰¿½Ç8Œ§Ø Ç1
+[
+java:S1128"9Remove this unused import 'javafx.scene.image.ImageView'.(áÿ®Ãüÿÿÿÿ8§Ø Ç1
+P
+java:S1128"4Remove this unused import 'javafx.stage.StageStyle'.(¶©28§Ø Ç1
+@
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD8§Ø Ç1
+K
+java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8§Ø Ç1
+B
+java:S1128"%Remove this unused import 'java.sql'.(´İ…Å8§Ø Ç1
+W
+java:S1128"5Remove this unused import 'java.util.ResourceBundle'.(ıÆ£¯øÿÿÿÿ8§Ø Ç1

@@ -1,0 +1,56 @@
+
+g	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¸æÔÍÎ1
+h
+java:S1192w"KDefine a constant instead of duplicating this literal "RESP_VENTE" 4 times.(§³èÆ8Ù¦“ÑÎ1
+m
+java:S1192z"KDefine a constant instead of duplicating this literal "RESP_ACHAT" 4 times.(ØÃ£‰şÿÿÿÿ8Ø¦“ÑÎ1
+q
+java:S1192ù"SDefine a constant instead of duplicating this literal "listCompanies.fxml" 3 times.(Í¿†î8„’–ÑÎ1
+h
+java:S1192t"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(è¨ÂŠıÿÿÿÿ8Ù¦“ÑÎ1
+r	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8Ü³´ÎÎ1
+s	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8ŞÚ‘ÑÎ1
+s	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8İ¦“ÑÎ1
+s	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ8†’–ÑÎ1
+w	java:S116$"VRename this field "StatusField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ«Ûáşÿÿÿÿ8ÁèÔÍÎ1
+s	java:S116U"RRename this field "IdField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ8ÂèÔÍÎ1
+u	java:S116U"TRename this field "NameField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ8ÄèÔÍÎ1
+v	java:S116U"URename this field "EmailField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ8ÄèÔÍÎ1
+v	java:S116U"URename this field "PhoneField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ8ÅèÔÍÎ1
+x	java:S116U"WRename this field "AddressField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ8ÅèÔÍÎ1
+x
+java:S1845U"VRename field "NameField" to prevent any misunderstanding/clash with field "nameField".(‚œÔèşÿÿÿÿ8ÇèÔÍÎ1
+z
+java:S1845U"XRename field "PhoneField" to prevent any misunderstanding/clash with field "phoneField".(‚œÔèşÿÿÿÿ8ÈèÔÍÎ1
+~
+java:S1845U"\Rename field "AddressField" to prevent any misunderstanding/clash with field "addressField".(‚œÔèşÿÿÿÿ8ÈèÔÍÎ1
+h
+java:S1659U"FDeclare "NameField" and all following declarations on a separate line.(‚œÔèşÿÿÿÿ8ÎèÔÍÎ1
+i	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ8áèÔÍÎ1
+C	java:S131s""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8åèÔÍÎ1
+p	java:S100‘"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡‚ßùÿÿÿÿ8™İ‘ÑÎ1
+D	java:S131˜""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8›İ‘ÑÎ1
+k	java:S100±"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åïÛó8œ¨“ÑÎ1
+D	java:S131·""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8¨“ÑÎ1
+H	java:S106Ã"+Replace this use of System.out by a logger.(¦ôëí8Ÿ¨“ÑÎ1
+k	java:S100î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ8¦“–ÑÎ1
+D	java:S131ô""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ8§“–ÑÎ1
+k	java:S100¯"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»×Ô÷8«éÔÍÎ1
+P
+java:S1172¯"2Remove this unused method parameter "actionEvent".(»×Ô÷8¬éÔÍÎ1
+b
+java:S1128"@Remove this unused import 'com.example.curewell.dao.CompanyDao'.(Ôù€ûÿÿÿÿ8ÕƒµÎÎ1
+e
+java:S1128"CRemove this unused import 'com.example.curewell.impl.AdminDoaImpl'.(É£·Ÿşÿÿÿÿ8ÖƒµÎÎ1
+e
+java:S1128"IRemove this unused import 'com.example.curewell.impl.TransactionDaoImpl'.(…ë—98ÖƒµÎÎ1
+`
+java:S1128"CRemove this unused import 'com.example.curewell.model.Transaction'.(«£Èå8ÛƒµÎÎ1
+V
+java:S1128"4Remove this unused import 'javafx.beans.Observable'.(æ ûÿÿÿÿ8ÜƒµÎÎ1
+Z
+java:S1128"=Remove this unused import 'javafx.collections.FXCollections'.(´¶²Æ8İƒµÎÎ1
+`
+java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ8æƒµÎÎ1
+n
+java:S1128 "QRemove this unused import 'com.example.curewell.DashboardController.currentUser'.(òİÃ™8èƒµÎÎ1

@@ -1,0 +1,11 @@
+
+k	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËÞ«üÿÿÿÿ
+k	java:S116D"VRename this field "PriceColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ñÎô
+s	java:S116F"YRename this field "QuantityColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã³Üýüÿÿÿÿ
+u
+java:S1450"ZRemove the "currentRole" field and declare it as a local variable in the relevant methods.(ú»ç‡ûÿÿÿÿ
+b	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åÐ
+<	java:S131j""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+i	java:S100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç’ý¾þÿÿÿÿ
+J
+java:S1068"/Remove this unused "currentRole" private field.(ú»ç‡ûÿÿÿÿ
