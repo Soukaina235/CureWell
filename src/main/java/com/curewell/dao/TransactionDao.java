@@ -16,4 +16,9 @@ public interface TransactionDao {
     Transaction findTransactionByID(int id);
 
     String getStatusTransaction(Transaction transaction);
+    public int getCountTotal();
+    public int getCountValidated();
+    public int getCountCancelled();
+    public int getCountNormal();
+
 }

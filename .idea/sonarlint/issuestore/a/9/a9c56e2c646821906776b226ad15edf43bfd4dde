@@ -1,0 +1,33 @@
+
+f
+java:S1192`"KDefine a constant instead of duplicating this literal "RESP_ACHAT" 4 times.(ØÃ£‰şÿÿÿÿ
+a
+java:S1192Z"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(è¨ÂŠıÿÿÿÿ
+a
+java:S1192]"KDefine a constant instead of duplicating this literal "RESP_VENTE" 4 times.(§³èÆ
+k	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+k	java:S116"WRename this field "AddressField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôú®b
+o	java:S116"URename this field "EmailField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤«„ùÿÿÿÿ
+o	java:S116!"URename this field "FnameField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åûÕúÿÿÿÿ
+o	java:S116$"URename this field "LnameField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£’³Ğûÿÿÿÿ
+j	java:S116'"URename this field "LoginField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›‚œæ
+m	java:S116*"XRename this field "PasswordField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€«³è
+o	java:S116-"URename this field "PhoneField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×—ø²ùÿÿÿÿ
+n	java:S1160"TRename this field "RoleField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¯åşÿÿÿÿ
+b	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ
+<	java:S131Y""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+c	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À“€Æ
+i	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ƒ‰Îıÿÿÿÿ
+d	java:S100ª"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ
+=	java:S131°""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+d	java:S100Ê"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åïÛó
+=	java:S131Ğ""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+A	java:S106Ü"+Replace this use of System.out by a logger.(¦ôëí
+i	java:S100í"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡‚ßùÿÿÿÿ
+=	java:S131ó""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+d	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¹ŞŸ
+I
+java:S1172™"2Remove this unused method parameter "actionEvent".(ñ¹ŞŸ

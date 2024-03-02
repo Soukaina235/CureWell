@@ -1,0 +1,39 @@
+
+h	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8×Èôÿß1
+h	java:S112Í"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ØÈôÿß1
+h	java:S112í"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8àÈôÿß1
+h	java:S112³"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8áÈôÿß1
+h	java:S112Ç"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ãÈôÿß1
+h	java:S112Û"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åÈôÿß1
+h	java:S112ğ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åÈôÿß1
+h	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8æÈôÿß1
+j
+java:S1192"GDefine a constant instead of duplicating this literal "status" 3 times.(ª¿Úøÿÿÿÿ8ğÈôÿß1
+s	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëĞÁôşÿÿÿÿ8óÈôÿß1
+r
+java:S2095ª"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8èÏôÿß1
+r
+java:S2095ø"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(º’Èæüÿÿÿÿ8åÏôÿß1
+r
+java:S2095¿"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8æÏôÿß1
+r
+java:S2095’"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(º’Èæüÿÿÿÿ8åÏôÿß1
+r
+java:S2095Ó"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8èÏôÿß1
+r
+java:S2095æ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8åÏôÿß1
+l
+java:S2095Z"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¹ï‹¦8åÏôÿß1
+r
+java:S2095ü"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úí¡¾øÿÿÿÿ8æÏôÿß1
+Y	java:S125‰"<This block of commented-out lines of code should be removed.(–¿Ñ”8¨Ğôÿß1
+u
+java:S6204 "RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ó˜Íˆûÿÿÿÿ8ÏĞôÿß1
+R
+java:S1611 "/Remove the parentheses around the "t" parameter(Ó˜Íˆûÿÿÿÿ8ĞĞôÿß1
+u
+java:S6204¥"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(§åãÎúÿÿÿÿ8ÓĞôÿß1
+R
+java:S1611¥"/Remove the parentheses around the "t" parameter(§åãÎúÿÿÿÿ8ÔĞôÿß1
+^
+java:S1144©";Remove this unused private "getMedicineQuantityMap" method.(ğÆç”ÿÿÿÿÿ8éÑôÿß1

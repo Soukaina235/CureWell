@@ -1,0 +1,10 @@
+
+m
+java:S1104"WMake currentUser a static final constant or non-public and provide accessors if needed.(ã°÷¤
+G
+java:S1444"1Make this "public static currentUser" field final(ã°÷¤
+(
+java:S2176"Rename this class.(¦Üò–
+]	java:S125"<This block of commented-out lines of code should be removed.(ÒµÆ€ûÿÿÿÿ8èÒõß1
+P
+java:S1128"4Remove this unused import 'javafx.stage.StageStyle'.(¶©28ŸèÒõß1

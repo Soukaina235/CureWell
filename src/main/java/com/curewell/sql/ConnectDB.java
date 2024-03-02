@@ -9,7 +9,11 @@ public class ConnectDB {
     private final String databaseName = "curewell";
     private final String databaseUser = "root";
     private final String databasePassword = "";
+<<<<<<< HEAD
+    private final String url = "jdbc:mysql://localhost:3306/" + databaseName + "?zeroDateTimeBehavior=convertToNull";
+=======
     private final String url = "jdbc:mysql://localhost:3307/" + databaseName + "?zeroDateTimeBehavior=convertToNull";
+>>>>>>> b547669e9a8f206a73500ebd829b30f4e580c5c0
 
     public Connection conn;
     public Statement statement;

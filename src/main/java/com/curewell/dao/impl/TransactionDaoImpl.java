@@ -1,5 +1,6 @@
 package com.curewell.dao.impl;
 
+
 import com.curewell.controller.Application;
 import com.curewell.model.Medicine;
 import com.curewell.model.StatusTransaction;
@@ -307,4 +308,86 @@ public class TransactionDaoImpl implements TransactionDao {
         }
         return status;
     }
+
+    @Override
+    public int getCountTotal(){
+        ConnectDB connectDB = null;
+
+        String req = "SELECT COUNT(id) FROM transaction";
+        try {
+            connectDB = new ConnectDB();
+            PreparedStatement preparedStatement = connectDB.conn.prepareStatement(req);
+            ResultSet rs = preparedStatement.executeQuery();
+            if (rs.next()) {
+                return rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        return 0;
+    }
+
+    @Override
+    public int getCountValidated(){
+        ConnectDB connectDB = null;
+
+        String req = "SELECT COUNT(id) FROM transaction WHERE status = 'Validated'";
+        try {
+            connectDB = new ConnectDB();
+            PreparedStatement preparedStatement = connectDB.conn.prepareStatement(req);
+            ResultSet rs = preparedStatement.executeQuery();
+            if (rs.next()) {
+                return rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        return 0;
+    }
+    @Override
+    public int getCountCancelled(){
+        ConnectDB connectDB = null;
+
+        String req = "SELECT COUNT(id) FROM transaction WHERE status = 'Canceled'";
+        try {
+            connectDB = new ConnectDB();
+            PreparedStatement preparedStatement = connectDB.conn.prepareStatement(req);
+            ResultSet rs = preparedStatement.executeQuery();
+            if (rs.next()) {
+                return rs.getInt(1);
+            }else{
+                return 0;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        return 0;
+    }
+
+    @Override
+    public int getCountNormal(){
+        ConnectDB connectDB = null;
+
+        String req = "SELECT COUNT(id) FROM transaction WHERE status = 'Normal'";
+        try {
+            connectDB = new ConnectDB();
+            PreparedStatement preparedStatement = connectDB.conn.prepareStatement(req);
+            ResultSet rs = preparedStatement.executeQuery();
+            if (rs.next()) {
+                return rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        return 0;
+    }
+
 }

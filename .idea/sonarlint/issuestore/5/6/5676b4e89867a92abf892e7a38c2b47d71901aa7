@@ -1,0 +1,11 @@
+
+=
+java:S3010"'Remove this assignment of "companyDao".(öŸ¸
+k
+java:S6201%"PReplace this instanceof check and cast with 'instanceof Company selectedCompany'(˜¯Æ‡üÿÿÿÿ
+E
+java:S1905&"*Remove this unnecessary cast to "Company".(ÔÜí«üÿÿÿÿ
+k
+java:S6201,"PReplace this instanceof check and cast with 'instanceof Company selectedCompany'(˜¯Æ‡üÿÿÿÿ
+E
+java:S1905-"*Remove this unnecessary cast to "Company".(ÔÜí«üÿÿÿÿ

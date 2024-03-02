@@ -1,0 +1,40 @@
+
+`	java:S112["FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+f
+java:S1192p"KDefine a constant instead of duplicating this literal "RESP_ACHAT" 4 times.(ØÃ£‰şÿÿÿÿ
+a
+java:S1192j"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(è¨ÂŠıÿÿÿÿ
+a
+java:S1192m"KDefine a constant instead of duplicating this literal "RESP_VENTE" 4 times.(§³èÆ
+j
+java:S1192è"SDefine a constant instead of duplicating this literal "listCompanies.fxml" 3 times.(Í¿†î
+k	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+p	java:S116"VRename this field "StatusField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ«Ûáşÿÿÿÿ
+l	java:S116L"RRename this field "IdField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ
+n	java:S116L"TRename this field "NameField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ
+o	java:S116L"URename this field "EmailField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ
+o	java:S116L"URename this field "PhoneField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ
+q	java:S116L"WRename this field "AddressField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œÔèşÿÿÿÿ
+q
+java:S1845L"VRename field "NameField" to prevent any misunderstanding/clash with field "nameField".(‚œÔèşÿÿÿÿ
+s
+java:S1845L"XRename field "PhoneField" to prevent any misunderstanding/clash with field "phoneField".(‚œÔèşÿÿÿÿ
+w
+java:S1845L"\Rename field "AddressField" to prevent any misunderstanding/clash with field "addressField".(‚œÔèşÿÿÿÿ
+a
+java:S1659L"FDeclare "NameField" and all following declarations on a separate line.(‚œÔèşÿÿÿÿ
+b	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ
+<	java:S131i""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+i	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡‚ßùÿÿÿÿ
+=	java:S131‹""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+d	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åïÛó
+=	java:S131ª""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+A	java:S106¶"+Replace this use of System.out by a logger.(¦ôëí
+d	java:S100İ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ
+=	java:S131ã""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»×Ô÷
+I
+java:S1172"2Remove this unused method parameter "actionEvent".(»×Ô÷

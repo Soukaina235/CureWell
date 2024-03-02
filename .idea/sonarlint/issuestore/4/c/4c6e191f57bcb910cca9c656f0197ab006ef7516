@@ -1,0 +1,21 @@
+
+k	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+k	java:S117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+^
+java:S1659!"HDeclare "gmailColumn" and all following declarations on a separate line.(ÎèŠÌ
+\
+java:S1659#"FDeclare "addbutton" and all following declarations on a separate line.(ãôÉ¬
+V	java:S125"<This block of commented-out lines of code should be removed.(ÀØÔşÿÿÿÿ
+V	java:S1250"<This block of commented-out lines of code should be removed.(Ø½—šÿÿÿÿÿ
+c	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ
+h	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç’ı¾şÿÿÿÿ
+S
+java:S1854J"8Remove this useless assignment to local variable "ROLE".(ÓËŞ«üÿÿÿÿ
+D
+java:S1481J")Remove this unused "ROLE" local variable.(ÓËŞ«üÿÿÿÿ
+b	java:S100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ
+<	java:S131a""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'com.curewell.model.Employee'.(„‚íòûÿÿÿÿ
+B
+java:S1068",Remove this unused "adminDao" private field.(–·¶æ
