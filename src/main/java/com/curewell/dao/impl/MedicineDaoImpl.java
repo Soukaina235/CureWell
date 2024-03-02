@@ -1,10 +1,8 @@
 package com.curewell.dao.impl;
 
-import com.curewell.Application;
+import com.curewell.controller.Application;
 import com.curewell.model.Category;
-import com.curewell.model.RespAchat;
 import com.curewell.model.Transaction;
-import com.curewell.DashboardController;
 import com.curewell.dao.MedicineDao;
 import com.curewell.model.Medicine;
 import com.curewell.sql.ConnectDB;

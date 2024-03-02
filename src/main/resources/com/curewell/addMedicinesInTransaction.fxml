@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="1018.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.TransactionController">
+<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="1018.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.TransactionController">
     <children>
         <TableView fx:id="medicineTable" layoutX="397.0" layoutY="152.0" prefHeight="408.0" prefWidth="564.0" style="-fx-background-insets: 0;">
             <columns>

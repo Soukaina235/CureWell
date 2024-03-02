@@ -1,10 +1,9 @@
-package com.curewell;
+package com.curewell.controller;
 
 import com.curewell.dao.impl.AdminDoaImpl;
 import com.curewell.dao.impl.CompanyDaoImpl;
 import com.curewell.dao.impl.EmployeeDaoImpl;
 import com.curewell.model.Company;
-import com.curewell.model.Employee;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

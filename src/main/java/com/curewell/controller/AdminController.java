@@ -1,4 +1,4 @@
-package com.curewell;
+package com.curewell.controller;
 
 import com.curewell.dao.impl.AdminDoaImpl;
 import com.curewell.dao.impl.EmployeeDaoImpl;

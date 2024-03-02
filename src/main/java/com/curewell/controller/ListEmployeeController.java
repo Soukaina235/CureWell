@@ -1,8 +1,7 @@
-package com.curewell;
+package com.curewell.controller;
 
+import com.curewell.dao.impl.AdminDoaImpl;
 import com.curewell.dao.impl.EmployeeDaoImpl;
-import com.curewell.dao.impl.MedicineDaoImpl;
-import com.curewell.model.Medicine;
 import com.curewell.model.Employee;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
@@ -20,12 +19,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.List;
 
-public class ListMedicineController {
+public class ListEmployeeController {
 
     private EmployeeDaoImpl employeeDao;
 
     private Employee currentUser;
-    private String currentRole;
     @FXML
     private JFXButton buttontable;
     @FXML
@@ -52,44 +50,65 @@ public class ListMedicineController {
     @FXML
     private JFXButton stockbutton;
 
+    private AdminDoaImpl adminDao;
     @FXML
-    private TableView<Medicine> medicineTable;
+    private TableView<Employee> employeeTable;
 
     @FXML
-    private TableColumn<Medicine, String> nameColumn;
+    private TableColumn<Employee, String> firstNameColumn;
 
     @FXML
-    private TableColumn<Medicine, String> idColumn;
+    private TableColumn<Employee, String> lastNameColumn;
 
     @FXML
-    private TableColumn<Medicine, String> descColumn;
+    private TableColumn<Employee, String> emailColumn;
     @FXML
-    private TableColumn<Medicine, String> PriceColumn;
+    private TableColumn<Employee, String> phoneColumn;
     @FXML
-    private TableColumn<Medicine, String> QuantityColumn;
+    private TableColumn<Employee, String> addressColumn;
     @FXML
-    private TableColumn<Medicine, String> actionsColumn;
+    private TableColumn<Employee, String> loginColumn;
+    @FXML
+    private TableColumn<Employee, String> roleColumn;
+    @FXML
+    private TableColumn<Employee, String> passwordColumn;
 
-    public void setCurrentUser(String currentRole) {
-        this.currentRole = currentRole;
-    }
     @FXML
     public void initialize() {
-        idColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
-        descColumn.setCellValueFactory(new PropertyValueFactory<>("description"));
-        PriceColumn.setCellValueFactory(new PropertyValueFactory<>("price"));
-        QuantityColumn.setCellValueFactory(new PropertyValueFactory<>("Quantity"));
-        loadMedicineData();
+        adminDao = new AdminDoaImpl();
+        firstNameColumn.setCellValueFactory(new PropertyValueFactory<>("firstName"));
+        lastNameColumn.setCellValueFactory(new PropertyValueFactory<>("lastName"));
+        emailColumn.setCellValueFactory(new PropertyValueFactory<>("email"));
+        addressColumn.setCellValueFactory(new PropertyValueFactory<>("address"));
+        phoneColumn.setCellValueFactory(new PropertyValueFactory<>("phone"));
+        loginColumn.setCellValueFactory(new PropertyValueFactory<>("login"));
+        passwordColumn.setCellValueFactory(new PropertyValueFactory<>("password"));
+        roleColumn.setCellValueFactory(new PropertyValueFactory<>("role"));
+        loadEmployeeData();
+    }
+    private void loadEmployeeData() {
+        List<Employee> employeeList = adminDao.getAllEmployees();
+
+        employeeTable.getItems().clear();
+
+        employeeTable.getItems().addAll(employeeList);
     }
 
-    private void loadMedicineData() {
-        MedicineDaoImpl medicinedao = new MedicineDaoImpl();
-        List<Medicine> medicinelist = medicinedao.selectAll();
 
-        medicineTable.getItems().clear();
+    @FXML
+    public void EmployeeButton(ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("listEmployee.fxml"));
+            Parent root = loader.load();
+            Scene scene = new Scene(root);
 
-        medicineTable.getItems().addAll(medicinelist);
+            Stage stage = (Stage) employeebutton.getScene().getWindow();
+
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML
@@ -150,7 +169,7 @@ public class ListMedicineController {
     @FXML
     public void ButtonTable(ActionEvent event) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("addMedicine.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("addEmployee.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
 

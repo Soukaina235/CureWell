@@ -7,7 +7,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="1200.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.ListCompanyController">
+<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="1200.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.ListCompanyController">
     <children>
         <TableView fx:id="companyTable" layoutX="86.0" layoutY="127.0" prefHeight="408.0" prefWidth="1027.0" style="-fx-background-insets: 0;">
             <columns>

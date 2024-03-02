@@ -1,4 +1,4 @@
-package com.curewell;
+package com.curewell.controller;
 
 import com.curewell.dao.impl.TransactionDaoImpl;
 import com.curewell.model.Transaction;
@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.List;
 
-public class ListTransactionAchatController {
+public class ListTransactionDemandeController {
     private TransactionDaoImpl transactionDao;
 
     @FXML
@@ -77,7 +77,7 @@ public class ListTransactionAchatController {
         loadTransactionData();
     }
     private void loadTransactionData() {
-        List<Transaction> transactionList = new TransactionDaoImpl().findAllAchat();
+        List<Transaction> transactionList = new TransactionDaoImpl().findAllDemande();
 
         transactionTable.getItems().clear();
 

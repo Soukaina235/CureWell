@@ -1,6 +1,6 @@
 package com.curewell.dao.impl;
 
-import com.curewell.Application;
+import com.curewell.controller.Application;
 import com.curewell.model.Medicine;
 import com.curewell.model.StatusTransaction;
 import com.curewell.model.Transaction;

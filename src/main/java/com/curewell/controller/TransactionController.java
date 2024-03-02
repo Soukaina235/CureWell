@@ -1,11 +1,10 @@
-package com.curewell;
+package com.curewell.controller;
 
 import com.curewell.dao.impl.CompanyDaoImpl;
 import com.curewell.dao.impl.EmployeeDaoImpl;
 import com.curewell.dao.impl.MedicineDaoImpl;
 import com.curewell.dao.impl.TransactionDaoImpl;
 import com.curewell.model.Medicine;
-import com.curewell.model.RespVente;
 import com.curewell.model.Transaction;
 import com.jfoenix.controls.JFXButton;
 import javafx.beans.property.SimpleIntegerProperty;

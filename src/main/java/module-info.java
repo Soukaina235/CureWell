@@ -11,4 +11,6 @@ module com.example.curewell {
     opens com.curewell.model to javafx.base;
 
     exports com.curewell;
+    exports com.curewell.controller;
+    opens com.curewell.controller to javafx.fxml;
 }

@@ -1,8 +1,7 @@
 package com.curewell.dao.impl;
 
-import com.curewell.Application;
+import com.curewell.controller.Application;
 import com.curewell.sql.ConnectDB;
-import com.curewell.DashboardController;
 import com.curewell.dao.EmployeeDao;
 import com.curewell.model.Employee;
 

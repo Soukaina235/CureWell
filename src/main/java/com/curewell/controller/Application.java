@@ -1,4 +1,4 @@
-package com.curewell;
+package com.curewell.controller;
 
 import com.curewell.model.Employee;
 import javafx.fxml.FXMLLoader;
