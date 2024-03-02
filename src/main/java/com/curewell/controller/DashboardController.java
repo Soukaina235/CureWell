@@ -1,6 +1,7 @@
 package com.curewell.controller;
 
 import com.curewell.dao.impl.EmployeeDaoImpl;
+import com.curewell.dao.impl.TransactionDaoImpl;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,6 +11,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
+import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import java.io.IOException;
 
@@ -37,10 +39,32 @@ public class DashboardController {
     @FXML
     private JFXButton stockbutton;
 
+    @FXML
+    private Label total,valid,cancel,normal;
+
 //    public void setCurrentUser(Employee employee) {
 //        this.currentUser = employee;
 //    }
 
+    public void initialize(){
+        TransactionDaoImpl transactiondao = new TransactionDaoImpl();
+        int rs1 = transactiondao.getCountTotal();
+        int rs2 = transactiondao.getCountValidated();
+        int rs3 = transactiondao.getCountCancelled();
+        int rs4 = transactiondao.getCountNormal();
+        if(rs1>=0){
+            total.setText(Integer.toString(rs1));
+        }
+        if(rs2>=0){
+            valid.setText(Integer.toString(rs2));
+        }
+        if(rs3>=0){
+            cancel.setText(Integer.toString(rs3));
+        }
+        if(rs4>=0){
+            normal.setText(Integer.toString(rs4));
+        }
+    }
 
     @FXML
     public void HomeButton(ActionEvent event) {

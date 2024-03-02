@@ -2,6 +2,7 @@ package com.curewell.controller;
 
 import com.curewell.dao.impl.AdminDoaImpl;
 import com.curewell.dao.impl.EmployeeDaoImpl;
+import com.curewell.dao.impl.TransactionDaoImpl;
 import com.curewell.model.Employee;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
@@ -87,10 +88,29 @@ public class AdminController {
     @FXML
     private Label MessageLabel;
 
+    @FXML
+    private Label total,valid,cancel,normal;
 
     @FXML
     public void initialize() {
         adminDao = new AdminDoaImpl();
+        TransactionDaoImpl transactiondao = new TransactionDaoImpl();
+        int rs1 = transactiondao.getCountTotal();
+        int rs2 = transactiondao.getCountValidated();
+        int rs3 = transactiondao.getCountCancelled();
+        int rs4 = transactiondao.getCountNormal();
+        if(rs1>=0){
+            total.setText(Integer.toString(rs1));
+        }
+        if(rs2>=0){
+            valid.setText(Integer.toString(rs2));
+        }
+        if(rs3>=0){
+            cancel.setText(Integer.toString(rs3));
+        }
+        if(rs4>=0){
+            normal.setText(Integer.toString(rs4));
+        }
     }
     public void setCurrentUser(Employee employee) {
         this.currentUser = employee;
