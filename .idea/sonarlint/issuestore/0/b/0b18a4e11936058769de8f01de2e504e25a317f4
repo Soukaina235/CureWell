@@ -1,0 +1,27 @@
+
+h
+java:S1192Q"KDefine a constant instead of duplicating this literal "RESP_VENTE" 4 times.(§³θΖ8“”ττί1
+m
+java:S1192T"KDefine a constant instead of duplicating this literal "RESP_ACHAT" 4 times.(ΨΓ£‰ώÿÿÿÿ8””ττί1
+h
+java:S1192N"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(θ¨Βύÿÿÿÿ8””ττί1
+r	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΣΛή«όÿÿÿÿ8•”ττί1
+s	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΣΛή«όÿÿÿÿ8•”ττί1
+s	java:S117ΐ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΣΛή«όÿÿÿÿ8•”ττί1
+s	java:S117γ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΣΛή«όÿÿÿÿ8–”ττί1
+_
+java:S1659,"BDeclare "valid" and all following declarations on a separate line.(ΕςΠΩ8•ττί1
+]	java:S125."<This block of commented-out lines of code should be removed.(Ψ½—ÿÿÿÿÿ8•ττί1
+i	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™εΠ8‘•ττί1
+C	java:S131M""Add a default case to this switch.(Ά±ΤΝψÿÿÿÿ8“•ττί1
+j	java:S100h"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΐ“€Ζ8«•ττί1
+o	java:S100x"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ƒ‰Ξύÿÿÿÿ8®•ττί1
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Γ’8·•ττί1
+D	java:S131£""Add a default case to this switch.(Ά±ΤΝψÿÿÿÿ8Ί•ττί1
+k	java:S100½"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(εοΫσ8½•ττί1
+D	java:S131Γ""Add a default case to this switch.(Ά±ΤΝψÿÿÿÿ8Ύ•ττί1
+H	java:S106Ο"+Replace this use of System.out by a logger.(¦τλν8Ώ•ττί1
+p	java:S100ΰ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(χ‡‚ίωÿÿÿÿ8ΐ•ττί1
+D	java:S131ζ""Add a default case to this switch.(Ά±ΤΝψÿÿÿÿ8Β•ττί1
+Z
+java:S1128"8Remove this unused import 'com.curewell.model.Employee'.(„‚νςϋÿÿÿÿ8‘Λυί1

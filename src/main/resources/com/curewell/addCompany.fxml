@@ -7,7 +7,11 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
+<<<<<<< HEAD
+<AnchorPane prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.CompanyController">
+=======
 <AnchorPane prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.CompanyController">
+>>>>>>> b547669e9a8f206a73500ebd829b30f4e580c5c0
    <children>
       <AnchorPane id="AnchorPane" layoutX="14.0" layoutY="7.0" prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css">
          <children>

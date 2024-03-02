@@ -1,0 +1,55 @@
+
+z
+java:S1192•"^Define a constant instead of duplicating this literal "Transaction Management System" 3 times.(× ¦ƒşÿÿÿÿ
+b
+java:S1192Ù"KDefine a constant instead of duplicating this literal "RESP_ACHAT" 5 times.(ØÓĞ
+b
+java:S1192ğ"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(è¨ÂŠıÿÿÿÿ
+g
+java:S1192¬"KDefine a constant instead of duplicating this literal "RESP_VENTE" 5 times.(‹Î÷Öÿÿÿÿÿ
+l	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓËŞ«üÿÿÿÿ
+l	java:S1161"WRename this field "CompanyField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è÷Í¢
+r	java:S1164"XRename this field "CreationField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ£›İşÿÿÿÿ
+m	java:S1167"XRename this field "DiscountField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹„”®
+r	java:S116:"XRename this field "EmployeeField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò”ËËıÿÿÿÿ
+n	java:S116<"TRename this field "DateLabel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ãúÿÿÿÿ
+g	java:S116@"RRename this field "IDField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òå€»
+p	java:S116D"VRename this field "StatusField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üŸÇüÿÿÿÿ
+o	java:S116G"URename this field "TotalField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞúÃıÿÿÿÿ
+n	java:S116J"TRename this field "TypeField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û×Éûÿÿÿÿ
+r
+java:S18451"\Rename field "CompanyField" to prevent any misunderstanding/clash with field "companyField".(è÷Í¢
+t
+java:S18457"^Rename field "DiscountField" to prevent any misunderstanding/clash with field "discountField".(‹„”®
+s
+java:S1845G"XRename field "TotalField" to prevent any misunderstanding/clash with field "totalField".(ŞúÃıÿÿÿÿ
+x
+java:S1450."bRemove the "selectedTransaction" field and declare it as a local variable in the relevant methods.(‰çÙê
+C
+java:S1172‡",Remove this unused method parameter "event".(‡Êá
+@	java:S106‹"+Replace this use of System.out by a logger.(ºÒ"
+F	java:S106Œ"+Replace this use of System.out by a logger.(³˜ÈÜûÿÿÿÿ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(ŞÖ›o
+A	java:S106µ"+Replace this use of System.out by a logger.(Û†­
+F	java:S106¶"+Replace this use of System.out by a logger.(ßŠÉ¹ûÿÿÿÿ
+F	java:S106·"+Replace this use of System.out by a logger.(ğöèñøÿÿÿÿ
+F	java:S106¸"+Replace this use of System.out by a logger.(¡ß·ùÿÿÿÿ
+c	java:S100é"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™åĞ
+=	java:S131ï""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+d	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ã’Œ
+=	java:S131‘""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+i	java:S100ª"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡‚ßùÿÿÿÿ
+=	java:S131°""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+d	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åïÛó
+=	java:S131‰""Add a default case to this switch.(¢±ÔÍøÿÿÿÿ
+A	java:S106•"+Replace this use of System.out by a logger.(¦ôëí
+T
+java:S1128"9Remove this unused import 'com.curewell.model.RespVente'.(«õÿÿÿÿÿ
+M
+java:S1068."7Remove this unused "selectedTransaction" private field.(‰çÙê
+M
+java:S1068r"2Remove this unused "transactionDao" private field.(Î˜‹ìûÿÿÿÿ

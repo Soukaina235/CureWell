@@ -8,7 +8,8 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.DashboardController">
+
+<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.DashboardController">
     <children>
         <AnchorPane layoutX="-14.0" prefHeight="735.0" prefWidth="240.0" styleClass="sidebar">
             <children>
@@ -100,16 +101,16 @@
                         <Font name="Inter Black" size="14.0" />
                     </font>
                 </Label>
-            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="25.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@images/order-delivery.png" />
-               </image>
-            </ImageView>
-            <Label fx:id="total" alignment="CENTER" layoutX="104.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
-               <font>
-                  <Font name="Inter Black" size="14.0" />
-               </font>
-            </Label>
+                <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="25.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/order-delivery.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="total" alignment="CENTER" layoutX="104.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" textFill="#113974">
+                    <font>
+                        <Font name="Inter Black" size="14.0" />
+                    </font>
+                </Label>
             </children>
         </AnchorPane>
         <AnchorPane layoutX="491.0" layoutY="93.0" prefHeight="120.0" prefWidth="191.0" style="-fx-border-radius: 0px 50px 0px 0px; -fx-border-color: #F1F2F7;">
@@ -127,13 +128,14 @@
                         <Font name="Berlin Sans FB" size="14.0" />
                     </font>
                 </Label>
-            <Label fx:id="valid" alignment="CENTER" layoutX="115.0" layoutY="51.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
-               <font>
-                  <Font name="Inter Black" size="14.0" />
-               </font>
-            </Label>
+                <Label fx:id="valid" alignment="CENTER" layoutX="115.0" layoutY="51.0" prefHeight="19.0" prefWidth="62.0" textFill="#113974">
+                    <font>
+                        <Font name="Inter Black" size="14.0" />
+                    </font>
+                </Label>
             </children>
         </AnchorPane>
+
         <AnchorPane layoutX="694.0" layoutY="93.0" prefHeight="120.0" prefWidth="191.0" style="-fx-border-radius: 0px 50px 0px 0px; -fx-border-color: #F1F2F7;">
             <effect>
                 <DropShadow color="#9a9696" />
@@ -149,34 +151,35 @@
                         <Font name="Berlin Sans FB" size="14.0" />
                     </font>
                 </Label>
-            <Label fx:id="normal" alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
-               <font>
-                  <Font name="Inter Black" size="14.0" />
-               </font>
-            </Label>
+                <Label fx:id="normal" alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" textFill="#113974">
+                    <font>
+                        <Font name="Inter Black" size="14.0" />
+                    </font>
+                </Label>
             </children>
         </AnchorPane>
-      <AnchorPane layoutX="284.0" layoutY="239.0" prefHeight="120.0" prefWidth="191.0" style="-fx-border-radius: 0px 50px 0px 0px; -fx-border-color: #F1F2F7;">
-         <effect>
-            <DropShadow color="#9a9696" />
-         </effect>
-         <children>
-            <Label alignment="CENTER" layoutX="44.0" layoutY="86.0" text="Cancelled Orders" textFill="#2262c6">
-               <font>
-                  <Font name="Berlin Sans FB" size="14.0" />
-               </font>
-            </Label>
-            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="19.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@images/cancel.png" />
-               </image>
-            </ImageView>
-            <Label fx:id="cancel" alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
-               <font>
-                  <Font name="Inter Black" size="14.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
+
+        <AnchorPane layoutX="284.0" layoutY="239.0" prefHeight="120.0" prefWidth="191.0" style="-fx-border-radius: 0px 50px 0px 0px; -fx-border-color: #F1F2F7;">
+            <effect>
+                <DropShadow color="#9a9696" />
+            </effect>
+            <children>
+                <Label alignment="CENTER" layoutX="44.0" layoutY="86.0" text="Cancelled Orders" textFill="#2262c6">
+                    <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="19.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/cancel.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="cancel" alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" textFill="#113974">
+                    <font>
+                        <Font name="Inter Black" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
     </children>
 </AnchorPane>

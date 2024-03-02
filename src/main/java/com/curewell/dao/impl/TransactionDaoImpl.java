@@ -1,5 +1,6 @@
 package com.curewell.dao.impl;
 
+
 import com.curewell.controller.Application;
 import com.curewell.model.Medicine;
 import com.curewell.model.StatusTransaction;
@@ -388,4 +389,5 @@ public class TransactionDaoImpl implements TransactionDao {
         }
         return 0;
     }
+
 }

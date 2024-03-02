@@ -5,7 +5,11 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+<<<<<<< HEAD
+      <jdbc-url>jdbc:mysql://localhost:3306/curewell</jdbc-url>
+=======
       <jdbc-url>jdbc:mysql://localhost:3307/curewell</jdbc-url>
+>>>>>>> b547669e9a8f206a73500ebd829b30f4e580c5c0
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
