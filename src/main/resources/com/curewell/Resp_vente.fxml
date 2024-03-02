@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.DashboardController">
+<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.DashboardController">
     <children>
         <AnchorPane layoutX="-14.0" prefHeight="735.0" prefWidth="240.0" styleClass="sidebar">
             <children>
@@ -105,7 +105,7 @@
                   <Image url="@images/order-delivery.png" />
                </image>
             </ImageView>
-            <Label alignment="CENTER" layoutX="104.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css" text="3425">
+            <Label fx:id="total" alignment="CENTER" layoutX="104.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
                <font>
                   <Font name="Inter Black" size="14.0" />
                </font>
@@ -127,7 +127,7 @@
                         <Font name="Berlin Sans FB" size="14.0" />
                     </font>
                 </Label>
-            <Label alignment="CENTER" layoutX="115.0" layoutY="51.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css" text="3425">
+            <Label fx:id="valid" alignment="CENTER" layoutX="115.0" layoutY="51.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
                <font>
                   <Font name="Inter Black" size="14.0" />
                </font>
@@ -149,7 +149,7 @@
                         <Font name="Berlin Sans FB" size="14.0" />
                     </font>
                 </Label>
-            <Label alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css" text="3425">
+            <Label fx:id="normal" alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
                <font>
                   <Font name="Inter Black" size="14.0" />
                </font>
@@ -171,7 +171,7 @@
                   <Image url="@images/cancel.png" />
                </image>
             </ImageView>
-            <Label alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css" text="3425">
+            <Label fx:id="cancel" alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
                <font>
                   <Font name="Inter Black" size="14.0" />
                </font>

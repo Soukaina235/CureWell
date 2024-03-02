@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import java.lang.String?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.effect.DropShadow?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.DashboardController">
+<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="900.0" style="-fx-background-color: #ECECE7;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curewell.controller.DashboardController">
     <children>
         <TextField layoutX="415.0" layoutY="22.0" opacity="0.5" prefHeight="30.0" prefWidth="222.0" promptText="Search Drive" style="-fx-background-color: transparent; -fx-border-radius: 50px; -fx-border-color: #AEB2C3;" text="Search...">
             <font>
@@ -35,7 +33,7 @@
                   <Image url="@images/order-delivery.png" />
                </image>
             </ImageView>
-            <Label alignment="CENTER" layoutX="104.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css" text="3425">
+            <Label fx:id="total" alignment="CENTER" layoutX="104.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
                <font>
                   <Font name="Inter Black" size="14.0" />
                </font>
@@ -57,7 +55,7 @@
                         <Font name="Berlin Sans FB" size="14.0" />
                     </font>
                 </Label>
-            <Label alignment="CENTER" layoutX="115.0" layoutY="51.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css" text="3425">
+            <Label fx:id="valid" alignment="CENTER" layoutX="115.0" layoutY="51.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
                <font>
                   <Font name="Inter Black" size="14.0" />
                </font>
@@ -79,7 +77,7 @@
                         <Font name="Berlin Sans FB" size="14.0" />
                     </font>
                 </Label>
-            <Label alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css" text="3425">
+            <Label fx:id="normal" alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
                <font>
                   <Font name="Inter Black" size="14.0" />
                </font>
@@ -101,14 +99,14 @@
                   <Image url="@images/cancel.png" />
                </image>
             </ImageView>
-            <Label alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css" text="3425">
+            <Label fx:id="cancel" alignment="CENTER" layoutX="105.0" layoutY="50.0" prefHeight="19.0" prefWidth="62.0" styleClass="sidebar-btn-text" stylesheets="@styles.css">
                <font>
                   <Font name="Inter Black" size="14.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane  layoutY="-5.0" onDragDetected="#HomeButton" prefHeight="735.0" prefWidth="240.0" styleClass="sidebar">
+      <AnchorPane layoutY="-5.0" onDragDetected="#HomeButton" prefHeight="735.0" prefWidth="240.0" styleClass="sidebar">
          <children>
             <ImageView fitHeight="64.0" fitWidth="169.0" layoutX="36.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -144,7 +142,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="stockbutton" onAction="#StockButton" layoutX="6.0" layoutY="246.0" prefHeight="27.0" prefWidth="191.0" stylesheets="@styles.css" text="Stock">
+            <JFXButton fx:id="stockbutton" layoutX="6.0" layoutY="246.0" onAction="#StockButton" prefHeight="27.0" prefWidth="191.0" stylesheets="@styles.css" text="Stock">
                <styleClass>
                   <String fx:value="sidebar-btn-text" />
                   <String fx:value="sidebar-btn" />
